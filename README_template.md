@@ -1,5 +1,6 @@
 # Tensorflow object detection
 > Setting up Tensorflow Object Dectection model.
+   Follow the instruction mentioned on the official [TensorFlow 2 Object Detection API tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html)
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]

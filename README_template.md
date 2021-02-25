@@ -1,5 +1,5 @@
 # Tensorflow object detection
-> Short blurb about what your product does.
+> Setting up Tensorflow Object Dectection model.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]

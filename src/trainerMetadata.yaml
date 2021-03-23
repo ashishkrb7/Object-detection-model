@@ -1,0 +1,4 @@
+train : ./RouterYOLO/images/train
+val : ./RouterYOLO/images/validation
+nc : 1
+names : ["Router"]

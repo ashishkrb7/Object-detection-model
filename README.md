@@ -58,7 +58,7 @@ https://docs.anaconda.com/anaconda/install/windows/
 |<img src="./inference/samples/Powercable_UI.jpg" width="700" height="200">|<img src="./inference/samples/backpanel_backend.jpg" width="700" height="200">|
 
 # License
-[![MIT License](https://img.shields.io/github/license/ashishkrb7/Object-detection-model.svg?style=flat-square&colorB=C62121)](https://github.com/ashishcssom/Object-detection-model/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/github/license/ashishkrb7/Object-detection-model.svg?style=flat-square&colorB=C62121)](https://github.com/ashishkrb7/Object-detection-model/blob/master/LICENSE)
 ```
 Copyright (c) 2021 Ashish Kumar
 ```

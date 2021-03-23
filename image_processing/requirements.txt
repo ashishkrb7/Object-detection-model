@@ -1,0 +1,2 @@
+argparse==1.1 # Python command-line parsing library
+opencv-python==4.2.0.34 # Wrapper package for OpenCV python bindings.

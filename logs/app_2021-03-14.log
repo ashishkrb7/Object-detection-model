@@ -1,0 +1,440 @@
+[2021-03-14] 09:20:51 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-14] 09:21:12 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-14] 09:21:12 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-14] 09:21:14 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-14] 09:21:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:21:36] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-14] 09:21:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:21:41] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-14] 09:21:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:21:41] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-14] 09:21:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:21:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-03-14] 09:21:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:21:56] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-14] 09:22:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:22:20] "[37mGET / HTTP/1.1[0m" 200 -
+[2021-03-14] 09:22:44 -  INFO   - test     - server.py - 46  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:22:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:22:44] "[37mGET /test HTTP/1.1[0m" 200 -
+[2021-03-14] 09:22:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:22:50] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-14] 09:22:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:22:51] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-14] 09:22:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:22:51] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:00 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:00] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:01 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:01] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:02 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:02] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:02 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:02] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:03 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:03 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:04 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:04] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:05 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:05] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:06 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:06 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:07 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:07] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:07 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:07] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:08 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:08] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:09 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:09] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:09 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:09] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:10 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:10] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:11 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:11] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:11 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:11] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:12 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:12] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:13 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:13] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:14 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:14 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:15 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:15] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:16 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:16] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:16 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:16] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:17 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:17] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:18 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:18] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:18 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:18] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:19 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:19 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:19] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:20 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:20] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:21 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:21 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:21] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:21 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:21 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:21] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:22 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:22 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:22] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:22 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:22 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:22] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:23 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:23 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:23] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:24 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:24 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:24] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:25 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:25 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:25] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:25 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:25 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:25] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:26 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:26 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:26] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:27 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:27] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:27 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:27] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:28 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:28] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:29 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:29] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:29 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:29] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:30 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:30] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:31 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:31] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:32 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:32 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:32] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:32 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:32 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:32] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:33 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:33] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:34 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:34] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:34 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:34] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:35 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:35] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:36 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:36] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:37 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:37] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:37 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:37] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:38 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:38] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:39 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:39] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:39 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:40] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:40 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:40] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:41 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:41] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:41 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:41] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:42 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:42] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:43 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:43] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:44 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:44] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:44 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:44] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:45 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:45] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:45 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:45] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:46 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:46] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:47 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:47] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:47 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:47] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:48 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:48] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:49 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:49] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:50 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:50] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:50 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:50] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:51 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:51] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:52 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:52] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:52 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:52] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:53 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:53] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:54 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:54 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:54] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:55 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:55] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:55 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:55] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:56 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:56] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:57 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:57] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:57 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:57] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:58 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:58] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:59 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:23:59 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:23:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:23:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:00 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:00] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:01 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:01] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:02 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:02] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:02 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:02] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:03 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:03 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:04 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:04] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:05 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:05] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:06 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:06 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:07 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:07] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:08 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:08] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:09 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:09] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:09 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:09] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:10 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:10] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:10 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:10] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:11 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:11] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:12 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:12] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:12 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:12] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:13 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:13] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:14 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:14 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:15 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:15] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:16 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:16] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:17 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:17] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:17 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:17] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:18 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:18] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:18 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:18] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:19 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:19 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:19] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:20 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:20] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:21 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:21 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:21] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:21 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:21 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:21] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:22 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:22 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:22] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:23 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:23 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:23] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:24 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:24 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:24] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:24 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:24 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:24] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:25 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:25 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:25] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:25 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:25 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:25] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:26 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:26 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:26] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:27 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:27] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:28 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:28] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:28 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:28] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:29 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:29] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:30 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:30] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:30 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:30] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:31 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:31] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:32 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:32 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:32] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:32 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:32 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:32] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:33 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:33] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:34 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:34] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:34 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:34] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:35 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:35] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:36 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:36] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:36 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:36] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:37 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:37] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:38 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:38] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:39 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:39] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:39 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:39] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:40 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:40] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:40 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:40] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:41 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:41] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:42 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:42] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:43 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:43] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:44 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:44] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:44 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:44] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:45 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:45] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:46 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:46] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:46 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:46] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:47 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:47] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:48 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:48] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:48 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:48] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:49 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:49] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:50 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:50] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:51 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:51] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:51 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:51] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:52 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:52] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:52 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:52] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:53 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:53] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:54 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:54 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:54] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:55 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:55] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:55 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:55] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:56 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:56] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:57 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:57] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:57 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:57] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:58 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:58] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:59 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:24:59 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:24:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:24:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:00 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:00] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:00 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:00] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:01 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:01] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:01 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:01] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:02 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:02] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:03 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:03 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:04 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:04] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:04 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:04] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:05 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:05] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:06 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:06 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:07 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:07] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:07 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:07] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:08 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:08] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:08 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:08] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:33 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:33] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:33 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:33] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:34 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:34] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:34 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:34] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:35 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:35] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:35 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:35] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:36 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:36] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:37 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:37] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:37 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:37] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:38 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:38] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 09:25:38 -  INFO   - GetRouter - server.py - 74  - Execution Successful for 127.0.0.1
+[2021-03-14] 09:25:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 09:25:38] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-14] 21:01:14 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-14] 21:01:33 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-14] 21:01:33 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-14] 21:01:35 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-14] 21:01:38 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-14] 21:01:38 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-14] 21:01:40 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-14] 21:02:03 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-14] 21:02:03 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-14] 21:02:04 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-14] 21:02:39 -  INFO   - test     - server.py - 46  - Execution Successful for 127.0.0.1
+[2021-03-14] 21:02:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 21:02:39] "[37mGET /test HTTP/1.1[0m" 200 -
+[2021-03-14] 21:02:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 21:02:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-03-14] 21:04:02 -  INFO   - test     - server.py - 46  - Execution Successful for 127.0.0.1
+[2021-03-14] 21:04:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 21:04:02] "[37mGET /test HTTP/1.1[0m" 200 -
+[2021-03-14] 21:06:02 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-14] 21:06:02 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-14] 21:06:03 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-14] 21:06:15 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-14] 21:06:15 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-14] 21:06:17 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-14] 21:06:20 -  INFO   - test     - server.py - 46  - Execution Successful for 127.0.0.1
+[2021-03-14] 21:06:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [14/Mar/2021 21:06:20] "[37mGET /test HTTP/1.1[0m" 200 -

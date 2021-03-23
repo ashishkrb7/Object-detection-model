@@ -1,0 +1,54 @@
+[2021-03-18] 11:05:19 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-18] 11:05:35 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-18] 11:05:36 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-18] 11:05:40 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-18] 11:06:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:06:31] "[37mGET /video HTTP/1.1[0m" 200 -
+[2021-03-18] 11:06:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:06:31] "[37mGET /static/objDetectOnMotion.js HTTP/1.1[0m" 200 -
+[2021-03-18] 11:06:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:06:41] "[33mGET /router.mp4 HTTP/1.1[0m" 404 -
+[2021-03-18] 11:06:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:06:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-03-18] 11:09:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:12] "[33mGET /vdeo HTTP/1.1[0m" 404 -
+[2021-03-18] 11:09:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:16] "[37mGET /video HTTP/1.1[0m" 200 -
+[2021-03-18] 11:09:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:16] "[37mGET /static/objDetectOnMotion.js HTTP/1.1[0m" 200 -
+[2021-03-18] 11:09:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:28] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:09:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:28] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:09:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:28] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:09:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:45] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:09:47 -  INFO   - GetRouter - server.py - 78  - Execution Successful for 127.0.0.1
+[2021-03-18] 11:09:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:09:47] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-18] 11:10:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:10:51] "[37mGET /video HTTP/1.1[0m" 200 -
+[2021-03-18] 11:10:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:10:58] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:10:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:10:58] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:10:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:10:58] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:11:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:11:07] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:11:07 -  INFO   - GetRouter - server.py - 78  - Execution Successful for 127.0.0.1
+[2021-03-18] 11:11:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:11:07] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-18] 11:12:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:12:38] "[37mGET /static/router.mp4 HTTP/1.1[0m" 200 -
+[2021-03-18] 11:12:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:12:40] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:12:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:12:40] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:12:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:12:40] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:14:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:14:29] "[37mGET /video HTTP/1.1[0m" 200 -
+[2021-03-18] 11:14:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:14:29] "[37mGET /static/objDetectOnMotion.js HTTP/1.1[0m" 200 -
+[2021-03-18] 11:14:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:14:52] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:14:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:14:53] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:14:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:14:53] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:14:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:14:59] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:14:59 -  INFO   - GetRouter - server.py - 78  - Execution Successful for 127.0.0.1
+[2021-03-18] 11:14:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:14:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-18] 11:15:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:08] "[37mGET /video HTTP/1.1[0m" 200 -
+[2021-03-18] 11:15:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:08] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:15:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:09] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:15:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:09] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:15:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:09] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:15:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:12] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:15:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:12] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:15:13 -  INFO   - GetRouter - server.py - 78  - Execution Successful for 127.0.0.1
+[2021-03-18] 11:15:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:13] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-18] 11:15:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:15:20] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:21:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:21:02] "[37mGET /video HTTP/1.1[0m" 200 -
+[2021-03-18] 11:21:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:21:03] "[37mGET /static/objDetectOnMotion.js HTTP/1.1[0m" 200 -
+[2021-03-18] 11:21:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:21:10] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:21:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:21:11] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:21:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:21:11] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:21:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:21:13] "[37mGET /static/router.mp4 HTTP/1.1[0m" 206 -
+[2021-03-18] 11:21:14 -  INFO   - GetRouter - server.py - 78  - Execution Successful for 127.0.0.1
+[2021-03-18] 11:21:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [18/Mar/2021 11:21:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -

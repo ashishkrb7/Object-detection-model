@@ -1,0 +1,237 @@
+[2021-03-10] 18:46:49 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-10] 18:47:14 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-10] 18:47:14 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-10] 18:47:15 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-10] 18:47:40 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'd:\\2020-21\\yolov5\\test.py', reloading
+[2021-03-10] 18:47:40 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'd:\\2020-21\\yolov5\\archieve\\test.py', reloading
+[2021-03-10] 18:47:40 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'd:\\2020-21\\yolov5\\archieve\\test.py', reloading
+[2021-03-10] 18:47:44 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-10] 18:52:59 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-10] 18:59:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 18:59:55] "[33mPOST / HTTP/1.1[0m" 404 -
+[2021-03-10] 19:00:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:00:03] "[33mPOST / HTTP/1.1[0m" 404 -
+[2021-03-10] 19:00:27 -  ERROR  - log_exception - app.py - 1892 - Exception on /visualbot/GetRouter [POST]
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 61, in GetRouter
+    image_file = request.files['image']
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 72, in GetRouter
+    error = "Oops! " + str(sys.exc_info()) + " occured."
+NameError: name 'sys' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:/2020-21/yolov5/server.py", line 79, in GetRouter
+    f.write(str(json.dumps({"Date":str(datetime.datetime.utcnow()),"content":request.get_json()}))+"\n")
+NameError: name 'datetime' is not defined
+[2021-03-10] 19:00:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:00:27] "[35m[1mPOST /visualbot/GetRouter HTTP/1.1[0m" 500 -
+[2021-03-10] 19:00:40 -  ERROR  - log_exception - app.py - 1892 - Exception on /visualbot/GetRouter [POST]
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 61, in GetRouter
+    image_file = request.files['image']
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 72, in GetRouter
+    error = "Oops! " + str(sys.exc_info()) + " occured."
+NameError: name 'sys' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:/2020-21/yolov5/server.py", line 79, in GetRouter
+    f.write(str(json.dumps({"Date":str(datetime.datetime.utcnow()),"content":request.get_json()}))+"\n")
+NameError: name 'datetime' is not defined
+[2021-03-10] 19:00:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:00:40] "[35m[1mPOST /visualbot/GetRouter HTTP/1.1[0m" 500 -
+[2021-03-10] 19:08:00 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-10] 19:08:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:08:09] "[33mPOST /visualbot/GetRouter HTTP/1.1[0m" 404 -
+[2021-03-10] 19:08:57 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 62, in GetRouter
+    image_file = request.files['image']
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[2021-03-10] 19:08:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:08:57] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:13:55 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 65, in GetRouter
+    items,image_shape,BoundingBox,ConfidenceScore=VisualBot(image_file,conf_thres,iou_thres,view_img,INFERENCE_IMAGE_PATH_OUTPUT,model=model_router)
+  File "d:\2020-21\yolov5\engine.py", line 17, in VisualBot
+    dataset = LoadImages(INFERENCE_IMAGE_PATH_INPUT, img_size=imgsz)
+  File "d:\2020-21\yolov5\utils\datasets.py", line 71, in __init__
+    p = str(Path(path))  # os-agnostic
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 1003, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 658, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 642, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+[2021-03-10] 19:13:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:13:55] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:14:03 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 65, in GetRouter
+    items,image_shape,BoundingBox,ConfidenceScore=VisualBot(image_file,conf_thres,iou_thres,view_img,INFERENCE_IMAGE_PATH_OUTPUT,model=model_router)
+  File "d:\2020-21\yolov5\engine.py", line 17, in VisualBot
+    dataset = LoadImages(INFERENCE_IMAGE_PATH_INPUT, img_size=imgsz)
+  File "d:\2020-21\yolov5\utils\datasets.py", line 71, in __init__
+    p = str(Path(path))  # os-agnostic
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 1003, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 658, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 642, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+[2021-03-10] 19:14:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:14:03] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:14:47 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-10] 19:14:54 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 65, in GetRouter
+    items,image_shape,BoundingBox,ConfidenceScore=VisualBot(image_file,conf_thres,iou_thres,view_img,INFERENCE_IMAGE_PATH_OUTPUT,model=model_router)
+  File "d:\2020-21\yolov5\engine.py", line 17, in VisualBot
+    dataset = LoadImages(INFERENCE_IMAGE_PATH_INPUT, img_size=imgsz)
+  File "d:\2020-21\yolov5\utils\datasets.py", line 71, in __init__
+    p = str(Path(path))  # os-agnostic
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 1003, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 658, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 642, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+[2021-03-10] 19:14:54 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:14:54] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:17:45 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-10] 19:17:51 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 62, in GetRouter
+    image_file = request.form['image']
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[2021-03-10] 19:17:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:17:51] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:23:15 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 62, in GetRouter
+    image_file = request.form['image']
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[2021-03-10] 19:23:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:23:15] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:23:59 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 62, in GetRouter
+    image_file = request.form['image']
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[2021-03-10] 19:23:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:23:59] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:34:19 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 62, in GetRouter
+    image_file = request.form['image']
+  File "C:\Users\css120804\AppData\Roaming\Python\Python37\site-packages\werkzeug\datastructures.py", line 442, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+werkzeug.exceptions.BadRequestKeyError: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[2021-03-10] 19:34:19 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:34:19] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:40:25 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-10] 19:44:48 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-10] 19:45:11 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 65, in GetRouter
+    items,image_shape,BoundingBox,ConfidenceScore=VisualBot(image_file,conf_thres,iou_thres,view_img,INFERENCE_IMAGE_PATH_OUTPUT,model=model_router)
+  File "d:\2020-21\yolov5\engine.py", line 17, in VisualBot
+    dataset = LoadImages(INFERENCE_IMAGE_PATH_INPUT, img_size=imgsz)
+  File "d:\2020-21\yolov5\utils\datasets.py", line 71, in __init__
+    p = str(Path(path))  # os-agnostic
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 1003, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 658, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 642, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+[2021-03-10] 19:45:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:45:11] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:45:38 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 65, in GetRouter
+    items,image_shape,BoundingBox,ConfidenceScore=VisualBot(image_file,conf_thres,iou_thres,view_img,INFERENCE_IMAGE_PATH_OUTPUT,model=model_router)
+  File "d:\2020-21\yolov5\engine.py", line 17, in VisualBot
+    dataset = LoadImages(INFERENCE_IMAGE_PATH_INPUT, img_size=imgsz)
+  File "d:\2020-21\yolov5\utils\datasets.py", line 71, in __init__
+    p = str(Path(path))  # os-agnostic
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 1003, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 658, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 642, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+[2021-03-10] 19:45:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:45:38] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 19:57:35 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 65, in GetRouter
+    items,image_shape,BoundingBox,ConfidenceScore=VisualBot(image_file,conf_thres,iou_thres,view_img,INFERENCE_IMAGE_PATH_OUTPUT,model=model_router)
+  File "d:\2020-21\yolov5\engine.py", line 17, in VisualBot
+    dataset = LoadImages(INFERENCE_IMAGE_PATH_INPUT, img_size=imgsz)
+  File "d:\2020-21\yolov5\utils\datasets.py", line 71, in __init__
+    p = str(Path(path))  # os-agnostic
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 1003, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 658, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 642, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+[2021-03-10] 19:57:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 19:57:35] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -
+[2021-03-10] 20:05:29 -  ERROR  - GetRouter - server.py - 75  - ERROR occured
+Traceback (most recent call last):
+  File "d:/2020-21/yolov5/server.py", line 65, in GetRouter
+    items,image_shape,BoundingBox,ConfidenceScore=VisualBot(image_file,conf_thres,iou_thres,view_img,INFERENCE_IMAGE_PATH_OUTPUT,model=model_router)
+  File "d:\2020-21\yolov5\engine.py", line 17, in VisualBot
+    dataset = LoadImages(INFERENCE_IMAGE_PATH_INPUT, img_size=imgsz)
+  File "d:\2020-21\yolov5\utils\datasets.py", line 71, in __init__
+    p = str(Path(path))  # os-agnostic
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 1003, in __new__
+    self = cls._from_parts(args, init=False)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 658, in _from_parts
+    drv, root, parts = self._parse_args(args)
+  File "C:\ProgramData\Anaconda3\lib\pathlib.py", line 642, in _parse_args
+    a = os.fspath(a)
+TypeError: expected str, bytes or os.PathLike object, not FileStorage
+[2021-03-10] 20:05:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [10/Mar/2021 20:05:29] "[33mPOST /visualbot/router HTTP/1.1[0m" 404 -

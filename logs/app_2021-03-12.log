@@ -1,0 +1,876 @@
+[2021-03-12] 09:06:39 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 09:06:47 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 09:06:47 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 09:06:49 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 09:07:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:07:12] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:07:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:07:12] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 09:07:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:07:13] "[33mGET /static/objDetect.js HTTP/1.1[0m" 404 -
+[2021-03-12] 09:07:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:07:14] "[33mGET /static/objDetect.js HTTP/1.1[0m" 404 -
+[2021-03-12] 09:07:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:07:49] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:07:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:07:49] "[33mGET /static/objDetect.js HTTP/1.1[0m" 404 -
+[2021-03-12] 09:07:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:07:56] "[33mGET /static/objDetect.js HTTP/1.1[0m" 404 -
+[2021-03-12] 09:09:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:09:33] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:09:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:09:33] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 09:09:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:09:33] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 09:09:40 -  ERROR  - GetBackpanel - server.py - 185 - ERROR occured
+Traceback (most recent call last):
+  File "D:\2020-21\yolov5\YOLO_visualbot\server.py", line 175, in GetBackpanel
+    output=VisualBot(image_file,conf_thres,iou_thres,INFERENCE_IMAGE_PATH_OUTPUT,model_backpanel,save_img)
+  File "D:\2020-21\yolov5\YOLO_visualbot\engine.py", line 16, in VisualBot
+    imgsz = check_img_size(640, s=model.stride.max())
+AttributeError: 'bool' object has no attribute 'stride'
+[2021-03-12] 09:09:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:09:40] "[33mPOST /visualbot/backpanel HTTP/1.1[0m" 404 -
+[2021-03-12] 09:10:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:10:00] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:10:02 -  ERROR  - GetBackpanel - server.py - 185 - ERROR occured
+Traceback (most recent call last):
+  File "D:\2020-21\yolov5\YOLO_visualbot\server.py", line 175, in GetBackpanel
+    output=VisualBot(image_file,conf_thres,iou_thres,INFERENCE_IMAGE_PATH_OUTPUT,model_backpanel,save_img)
+  File "D:\2020-21\yolov5\YOLO_visualbot\engine.py", line 16, in VisualBot
+    imgsz = check_img_size(640, s=model.stride.max())
+AttributeError: 'bool' object has no attribute 'stride'
+[2021-03-12] 09:10:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:10:02] "[33mPOST /visualbot/backpanel HTTP/1.1[0m" 404 -
+[2021-03-12] 09:11:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:11:01] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:11:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:11:01] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 09:11:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:11:02] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 09:11:09 -  ERROR  - GetBackpanel - server.py - 185 - ERROR occured
+Traceback (most recent call last):
+  File "D:\2020-21\yolov5\YOLO_visualbot\server.py", line 175, in GetBackpanel
+    output=VisualBot(image_file,conf_thres,iou_thres,INFERENCE_IMAGE_PATH_OUTPUT,model_backpanel,save_img)
+  File "D:\2020-21\yolov5\YOLO_visualbot\engine.py", line 16, in VisualBot
+    imgsz = check_img_size(640, s=model.stride.max())
+AttributeError: 'bool' object has no attribute 'stride'
+[2021-03-12] 09:11:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:11:09] "[33mPOST /visualbot/backpanel HTTP/1.1[0m" 404 -
+[2021-03-12] 09:11:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:11:28] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:11:29 -  ERROR  - GetBackpanel - server.py - 185 - ERROR occured
+Traceback (most recent call last):
+  File "D:\2020-21\yolov5\YOLO_visualbot\server.py", line 175, in GetBackpanel
+    output=VisualBot(image_file,conf_thres,iou_thres,INFERENCE_IMAGE_PATH_OUTPUT,model_backpanel,save_img)
+  File "D:\2020-21\yolov5\YOLO_visualbot\engine.py", line 16, in VisualBot
+    imgsz = check_img_size(640, s=model.stride.max())
+AttributeError: 'bool' object has no attribute 'stride'
+[2021-03-12] 09:11:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:11:29] "[33mPOST /visualbot/backpanel HTTP/1.1[0m" 404 -
+[2021-03-12] 09:12:12 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 09:12:12 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 09:12:13 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 09:12:23 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 09:12:23 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 09:12:24 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 09:12:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:12:28] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:12:30 -  ERROR  - GetBackpanel - server.py - 185 - ERROR occured
+Traceback (most recent call last):
+  File "D:\2020-21\yolov5\YOLO_visualbot\server.py", line 175, in GetBackpanel
+    output=VisualBot(image_file,conf_thres,iou_thres,INFERENCE_IMAGE_PATH_OUTPUT,model_backpanel,save_img)
+  File "D:\2020-21\yolov5\YOLO_visualbot\engine.py", line 16, in VisualBot
+    imgsz = check_img_size(640, s=model.stride.max())
+AttributeError: 'bool' object has no attribute 'stride'
+[2021-03-12] 09:12:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:12:30] "[33mPOST /visualbot/backpanel HTTP/1.1[0m" 404 -
+[2021-03-12] 09:24:49 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 09:24:58 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 09:24:58 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 09:24:59 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 09:25:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:12] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:13] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:14] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:29 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:29] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:30 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:30] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:31 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:31] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:32 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:32 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:32] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:32 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:32 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:32] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:33 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:33] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:36 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:36] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:37 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:37] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:37 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:37] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:38 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:38] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:38 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:38] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:39 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:39] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:40 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:40] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:41 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:41] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:41 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:41] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:42 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:42] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:42 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:42] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:43 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:43] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:44 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:44] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:45 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:45] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:45 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:45] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:46 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:46] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:47 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:47] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:47 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:47] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:48 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:48] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:49 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:49] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:49 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:49] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:50 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:50] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:51 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:51] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:51 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:51] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:52 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:52] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:53 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:53] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:53 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:53] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:54 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:54 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:54] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:55 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:55] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:56 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:56] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:56 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:56] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:57 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:57] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:58 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:58] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:58 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:58] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:25:59 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:25:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:25:59] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:00 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:00] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:00 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:00] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:01 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:01] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:02 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:02] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:03 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:03] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:04 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:04] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:05 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:05] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:06 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:06] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:07 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:07] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:07 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:07] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:08 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:08] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:09 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:09] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:10 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:10] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:11 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:11] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:12 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:12] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:12 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:12] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:13 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:13] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:14 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:14] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:15 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:15] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:15 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:15] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:16 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:16] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:17 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:17] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:18 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:18] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:18 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:18] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 09:26:19 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 09:26:19 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 09:26:19] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:06:48 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:07:06 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:07:06 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:07:08 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 10:08:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:00] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:00] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:01] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-03-12] 10:08:12 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:12] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:13 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:13] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:15 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:15] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:20 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:20] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:22 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:22 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:22] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:23 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:23 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:23] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:25 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:25 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:25] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:26 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:26 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:26] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:27 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:27] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:28 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:28] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:30 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:30] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:31 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:31] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:33 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:33] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:35 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:35] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:37 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:37] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:38 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:38] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:39 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:39] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:40 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:40] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:41 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:41] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:42 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:42] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:43 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:43] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:43 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:43] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:44 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:44] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:45 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:45] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:46 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:46] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:47 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:47] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:48 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:48] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:49 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:49] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:50 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:50] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:51 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:51] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:53 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:53] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:54 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:54 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:54] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:55 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:55] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:56 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:56] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:57 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:57] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:58 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:58] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:08:59 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:08:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:08:59] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:00 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:00] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:01 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:01] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:02 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:02] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:02 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:02] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:03 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:03] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:04 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:04] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:05 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:05] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:06 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:06] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:07 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:07] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:08 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:08] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:09 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:09] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:11 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:11] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:11 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:11] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:12 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:12] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:13 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:13] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:14 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:14] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:15 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:15] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:16 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:16] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:17 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:17] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:18 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:18] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:19 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:19 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:19] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:20 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:20] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:21 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:21 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:21] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:22 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:22 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:22] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:23 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:23 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:23] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:24 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:24 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:24] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:25 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:25 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:25] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:26 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:26 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:26] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:27 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:27] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:28 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:28] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:30 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:30] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:31 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:31] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:32 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:32 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:32] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:33 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:33] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:34 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:34] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:35 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:35] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:37 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:37] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:38 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:38] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:40 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:40] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:41 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:41] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:42 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:42] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:43 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:43] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:45 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:45] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:46 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:46] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:48 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:48] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:49 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:49] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:51 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:51] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:52 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:52] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:53 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:53] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:54 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:54 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:54] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:56 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:56] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:57 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:57] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:58 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:58] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:09:59 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:09:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:09:59] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:10:00 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:10:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:10:00] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:10:01 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:10:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:10:01] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:10:03 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:10:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:10:03] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:10:04 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:10:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:10:04] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:12:20 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:12:32 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:12:33 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:12:34 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 10:13:25 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 10:13:25 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 10:13:25 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 10:13:25 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 10:13:27 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:14:37 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:14:54 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:14:54 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:14:56 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 10:17:10 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:17:29 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:17:29 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:17:30 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 10:17:50 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 10:17:50 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 10:17:50 -  INFO   - _log     - _internal.py - 113 -  * Detected change in 'D:\\2020-21\\yolov5\\YOLO_visualbot\\server.py', reloading
+[2021-03-12] 10:17:52 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:18:16 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:18:16 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:18:18 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 10:18:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:27] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:28] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:28] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:38 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:38] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:39 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:39] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:40 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:40] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:41 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:41] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:42 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:42] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:44 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:44] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:46 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:46] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:47 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:47] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:49 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:49] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:50 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:50] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:52 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:52] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:55 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:55] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:18:59 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:18:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:18:59] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:01 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:01] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:08 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:08] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:09 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:09] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:10 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:10] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:12 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:12] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:14 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:14] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:17 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:17] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:24 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:24 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:24] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:27 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:27 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:27] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:29 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:29] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:31 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:31] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:33 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:33] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:35 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:35] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:38 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:38] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:19:41 -  INFO   - GetBackpanel - server.py - 178 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:19:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:19:41] "[37mPOST /visualbot/backpanel HTTP/1.1[0m" 200 -
+[2021-03-12] 10:24:36 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:25:00 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:25:00 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:25:02 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 10:25:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:25:31] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:25:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:25:31] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:25:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:25:31] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:26:29 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:26:29] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:26:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:26:33] "[37mGET / HTTP/1.1[0m" 200 -
+[2021-03-12] 10:26:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:26:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-03-12] 10:26:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:26:48] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:26:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:26:49] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:15 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:15] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:49 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:49] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:50 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:50] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:52 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:52] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:53 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:53] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:55 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:55] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:56 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:56] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:58 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:58] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:27:59 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:27:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:27:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:00 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:00] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:01 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:01] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:03 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:04 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:04] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:05 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:05] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:07 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:07] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:08 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:08] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:10 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:10] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:12 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:12] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:14 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:17 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:17] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:41 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:41] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:47 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:47] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:49 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:49] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:51 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:51] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:53 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:53] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:55 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:55] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:57 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:57] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:58 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:58] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:28:59 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:28:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:28:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:01 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:01] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:02 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:02] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:05 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:05] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:06 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:08 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:08] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:10 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:10] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:14 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:15 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:15] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:17 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:17] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:48 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:48] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:51 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:51] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:54 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:54 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:54] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:56 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:56] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:29:59 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:29:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:29:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:01 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:01 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:01] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:03 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:04] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:05 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:05] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:10 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:10] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:11 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:11] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:13 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:13] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:14 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:14] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:16 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:16] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:49 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:49] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:50 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:50] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:52 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:52] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:53 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:53] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:55 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:55] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:57 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:57] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:30:59 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:30:59 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:30:59] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:31:03 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:31:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:31:03] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:31:06 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:31:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:31:06] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:31:09 -  INFO   - GetRouter - server.py - 109 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:31:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:31:09] "[37mPOST /visualbot/router HTTP/1.1[0m" 200 -
+[2021-03-12] 10:34:12 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:34:31 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:34:31 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:34:32 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2021-03-12] 10:36:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:36:14] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:36:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:36:14] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:36:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:36:14] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:37:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:37:28] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:37:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:37:28] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:37:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:37:28] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:37:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:37:40] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:37:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:37:41] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:37:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:37:41] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:41:37 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:41:55 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:41:55 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:41:57 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2021-03-12] 10:44:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:44:10] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:44:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:44:10] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:44:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:44:10] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:44:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:44:18] "[37mGET / HTTP/1.1[0m" 200 -
+[2021-03-12] 10:44:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:44:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-03-12] 10:46:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:13] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:16] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:17 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:17] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:35 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:35] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:37 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:37] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:39 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:39] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:41 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:41] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:44 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:44] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:46 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:46] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:53 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:53] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:55 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:55] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:56 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:56 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:56] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:46:58 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:46:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:46:58] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:00 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:00] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:02 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:02] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:04 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:04] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:06 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:06] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:08 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:08] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:09 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:09 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:09] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:11 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:11] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:12 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:12] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:13 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:13] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:15 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:15] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:16 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:16] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:18 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:18] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:20 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:20] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:21 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:21 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:21] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:24 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:24 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:24] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:31 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:31] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:34 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:34] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:39 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:39] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:43 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:43] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:46 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:46] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:49 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:49] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:51 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:51] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:53 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:53] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:55 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:55] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:47:57 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:47:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:47:57] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:00 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:00] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:02 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:02] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:05 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:05] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:13 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:13] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:16 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:16] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:20 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:20] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:26 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:26 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:26] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:33 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:33] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:36 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:36] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:39 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:39] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:41 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:41 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:41] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:44 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:44] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:46 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:46] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:48 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:48] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:50 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:50 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:50] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:53 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:53] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:55 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:55] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:48:57 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:48:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:48:57] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:00 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:00] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:02 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:02] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:05 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:05 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:05] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:07 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:07 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:07] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:10 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:10] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:13 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:13 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:13] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:15 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:15] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:18 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:18] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:21 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:21 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:21] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:28 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:28 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:28] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:31 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:31] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:33 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:33] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:35 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:35 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:35] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:38 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:38 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:38] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:40 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:40] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:42 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:42] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:44 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:44 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:44] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:47 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:47 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:47] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:49 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:49 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:49] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:52 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:52 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:52] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:55 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:55] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:49:57 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:49:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:49:57] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:50:00 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:50:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:50:00] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:50:03 -  INFO   - GetEthernetCable - server.py - 132 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:50:03 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:50:03] "[37mPOST /visualbot/ethernetcable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:51:02 -  INFO   - _log     - _internal.py - 113 -  * Restarting with windowsapi reloader
+[2021-03-12] 10:51:28 -  WARNING - _log     - _internal.py - 113 -  * Debugger is active!
+[2021-03-12] 10:51:28 -  INFO   - _log     - _internal.py - 113 -  * Debugger PIN: 701-526-853
+[2021-03-12] 10:51:28 -  INFO   - _log     - _internal.py - 113 -  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+[2021-03-12] 10:52:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:02] "[37mGET /local HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:02] "[37mGET /static/local.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:02] "[37mGET /static/objDetect.js HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2021-03-12] 10:52:10 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:10] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:11 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:11 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:11] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:12 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:12 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:12] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:14 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:14 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:14] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:15 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:15 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:15] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:16 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:16 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:16] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:18 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:18 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:18] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:20 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:20 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:20] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:22 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:22 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:22] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:24 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:24 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:24] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:30 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:30 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:30] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:31 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:31 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:31] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:33 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:33 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:33] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:34 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:34 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:34] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:36 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:36 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:36] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:37 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:37 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:37] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:39 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:39 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:39] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:40 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:40 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:40] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:42 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:42 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:42] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:43 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:43 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:43] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:45 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:45 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:45] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:46 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:46 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:46] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:48 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:48 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:48] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:51 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:51 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:51] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:53 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:53 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:53] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:55 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:55 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:55] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:57 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:57 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:57] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:52:58 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:52:58 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:52:58] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:53:00 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:53:00 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:53:00] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:53:02 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:53:02 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:53:02] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:53:04 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:53:04 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:53:04] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:53:06 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:53:06 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:53:06] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:53:08 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:53:08 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:53:08] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -
+[2021-03-12] 10:53:10 -  INFO   - GetPowerCable - server.py - 155 - Execution Successful for 127.0.0.1
+[2021-03-12] 10:53:10 -  INFO   - _log     - _internal.py - 113 - 127.0.0.1 - - [12/Mar/2021 10:53:10] "[37mPOST /visualbot/powercable HTTP/1.1[0m" 200 -

@@ -1,7 +1,3 @@
-import os
-os.chdir(os.path.dirname(os.getcwd()))
-import sys
-sys.path.append(os.path.dirname(os.getcwd()))
 import argparse
 import json
 from models.experimental import *

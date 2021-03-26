@@ -51,7 +51,7 @@ https://docs.anaconda.com/anaconda/install/windows/
 
 # Sample JSON output of the API
 ```json
-[{\"height\": \"0.855\", \"width\": \"0.9\", \"y\": \"0.0\", \"x\": \"0.08375\", \"score\": \"0.88620275\", \"class_name\": \"Router\", \"name\": \"Router Identified.\"}, {\"threshold\": 0.7, \"name\": \"CSS Corp Visual bot\", \"numObjects\": \"1\"}]
+[{\"height\": \"0.855\", \"width\": \"0.9\", \"y\": \"0.0\", \"x\": \"0.08375\", \"score\": \"0.88620275\", \"class_name\": \"Router\", \"name\": \"Router Identified.\"}, {\"threshold\": 0.7, \"name\": \"Object Detection API\", \"numObjects\": \"1\"}]
 ```
 # Sample outputs
 | | |

@@ -25,7 +25,7 @@ https://docs.anaconda.com/anaconda/install/windows/
 
 2. After Anaconda installation, go to search and run Anaconda Prompt and create virtual environment using following commands.
 
-    `conda create -n visualbot python=3.7.3 anaconda`
+    `conda create -n visualbot python=3.7.3`
 
     `conda activate visualbot`
 
